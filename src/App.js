@@ -1,12 +1,12 @@
 import React from 'react';
+import Main from './components/Main.js';
 
 
-export default App(){
+export default function App(){
+		return(
+			<>
+			<Main />
+			</>
+			)
+		}
 
-ruturn(
-	<>
-	<h1> test </h1>
-	</>
-	)
-
-}
