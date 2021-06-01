@@ -36,7 +36,7 @@ export default function App () {
 
 
 // retornando o jsx com os dados json da api como parametro
-   return( <GetHero heros={heros}  /> )} //App
+   return(<main className='main-container'><GetHero heros={heros}  /></main>)} //App
 
 
 

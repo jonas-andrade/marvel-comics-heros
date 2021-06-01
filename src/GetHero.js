@@ -6,7 +6,7 @@ export default function GetHero ({heros}){
 	
 	
      return (
-     	    <section className="contents">
+     	    <section className="loop-container">
                     {heros.map(item=>(
                       <OutputHTML key={item.id} heros={item}></OutputHTML>
                     ))}

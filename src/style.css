@@ -1,57 +1,51 @@
-* {
-  box-sizing: border-box;
+/* reset */
+body{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  background-color: #013c58;
+  width: 100%;
+  height: 100%;
 }
-body{
+
+
+/* estrutura */
+
+.main-container{
   width: 100vw;
   height: 100vh;
 }
+
 .main{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  grid-gap: 90px;
-  width: 100vw;
-  height: 100vh;
-  background-color: #000;
-  color: white;
-  border: 2px solid white;
-
-  
+  grid-template-columns: repeat(1, 1f);
+  grid-template-rows: repeat(1, 1f);
+  justify-content: center;
+    
 }
-.hero-img{
-  background-color: white;
+
+.hero-img img{
+  width: 500px;
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+
+}
+.hero-desc{
+  width:420px;
+  margin-top: 8px;
+  margin-bottom: 80px;
+  background-color: dimgray;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  text-align: center;
   justify-self: center;
 
 
-}
-.hero-desc {
-  width: 300px;
-  border-radius: 16px;
-  background-color: lightblue;
-  align-self: center;
-  
 
 }
-.hero-desc ul {
-  background-color: dimgray;
-  list-style-type: none;
-  text-align: center;
-  padding:30px;
-  border-radius: 0 0 16px 16px ;
-
-
-}
-.hero-desc h1{text-align: center; padding: 10px;}
-
-.hero-img img{
- width: 90%;
- margin: 50px;
- border: 1px solid white;
- border-radius: 0 17px 17px 17px;
-}
-
-.anime{
-  transform: rotateY(45deg);
-}
+.hero-desc h1 { margin-top: 10px; }
+.hero-desc ul li{list-style-type: none; padding: 0 20px;}

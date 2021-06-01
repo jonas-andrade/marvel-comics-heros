@@ -1,15 +1,16 @@
 import React from 'react'
 // import logo from './img/logo.png'
-import Anime from './Anime.js'
+
 //component/funcão responsavel por retornar o jsx com os dados completo da api
 const OutputHTML = ({heros}) => {
 
     return (
               
+              
                 <div className='main'>
 
-                <div onClick={Anime} className='hero-img'>
-                  <img src={`${heros.thumbnail.path}.${heros.thumbnail.extension}`} alt='' />
+                <div  className='hero-img'>
+                  <img  src={`${heros.thumbnail.path}.${heros.thumbnail.extension}`} alt='' />
                  </div> 
 
                 <div className='hero-desc'>
@@ -25,7 +26,7 @@ const OutputHTML = ({heros}) => {
                 </div>
                 </div>
              
-    )}
+      )}
 
 export default OutputHTML
 

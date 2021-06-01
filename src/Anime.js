@@ -1,6 +1,7 @@
 
 const Anime = ()=> {
-	document.querySelector('.hero-img img').classList.add('anime');
+	
+	document.querySelector('.hero-img ').classList.toggle('anime');
 }
 
 export default Anime
