@@ -12,8 +12,8 @@ body{
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-gap: 90px;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: #000;
   color: white;
   border: 2px solid white;
@@ -27,21 +27,31 @@ body{
 
 }
 .hero-desc {
+  width: 300px;
+  border-radius: 16px;
   background-color: lightblue;
   align-self: center;
   
 
 }
-.hero-desc ul{
+.hero-desc ul {
   background-color: dimgray;
   list-style-type: none;
+  text-align: center;
+  padding:30px;
+  border-radius: 0 0 16px 16px ;
 
 
 }
-.hero-img img{
+.hero-desc h1{text-align: center; padding: 10px;}
 
- width: 100%;
+.hero-img img{
+ width: 90%;
  margin: 50px;
  border: 1px solid white;
  border-radius: 0 17px 17px 17px;
+}
+
+.anime{
+  transform: rotateY(45deg);
 }

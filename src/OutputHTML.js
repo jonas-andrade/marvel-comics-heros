@@ -1,6 +1,6 @@
 import React from 'react'
 // import logo from './img/logo.png'
-
+import Anime from './Anime.js'
 //component/funcão responsavel por retornar o jsx com os dados completo da api
 const OutputHTML = ({heros}) => {
 
@@ -8,7 +8,7 @@ const OutputHTML = ({heros}) => {
               
                 <div className='main'>
 
-                <div className='hero-img'>
+                <div onClick={Anime} className='hero-img'>
                   <img src={`${heros.thumbnail.path}.${heros.thumbnail.extension}`} alt='' />
                  </div> 
 
