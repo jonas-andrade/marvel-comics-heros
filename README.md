@@ -12,7 +12,7 @@
  	                este prejeto é sobre usar uma API da Marvel utilizando JavaScript e reactjs nodejs axios</br>
 		os metodos utilizados nesse projeto:</br>
 		GET - /v1/public/characters </br>
-			GET - /V1/public/characters/{characterId}/stories</br>
+			GET - /V1/public/characters/{characterId}</br>
 			<h2>Exemplo de uso da api</h2>
 			<h3>http:// gateway.marvel.com/v1/public/comics? => URL BASE</h3>
 	                <h3>ts=1& => TIMESTAMP</h3>
