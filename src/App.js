@@ -1,6 +1,7 @@
 
 import React,{ useEffect , useState } from 'react';
 import GetHero from './GetHero';
+import ChangeId from './ChangeId'
 import axios from  'axios';
 import './style.css';
 
@@ -21,6 +22,8 @@ const hash = 'e2d00036f8687a32c247e8793c5d3007'
 export default function App () {
  const[heros,setHeros] = useState([])
 
+   
+
 /* °hook do react para efeito colateral -- Busca os dados da api com axios
 // °hook do react para estado de valor -- Armazena o array vindo da api
 // °executa uma função que vai pegar esse retorno e armazenar na variavel de estado
@@ -29,14 +32,20 @@ export default function App () {
         useEffect(()=>{
             const fetch = async()=>{
               const res = await axios(`${baseUrl}?ts=${ts}&apikey=${apikey}&hash=${hash}`)
-              console.log(res)
+              console.log("res: ",res)
               setHeros(res.data.data.results) }
               fetch()
+             
+
            },[])
 
+     
 
 // retornando o jsx com os dados json da api como parametro
-   return(<main className='main-container'><GetHero heros={heros}  /></main>)} //App
+   return(<main className='main-container'>
+            <ChangeId  />
+            <GetHero all={heros}  />
+            </main>)} //App
 
 
 

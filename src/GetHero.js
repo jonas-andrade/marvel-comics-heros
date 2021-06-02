@@ -2,13 +2,13 @@ import React from 'react'
 import OutputHTML from './OutputHTML'
 
 // envio da função responsavel por retornar os personagens com base no parametro recebido
-export default function GetHero ({heros}){
+export default function GetHero ({all}){
 	
 	
      return (
      	    <section className="loop-container">
-                    {heros.map(item=>(
-                      <OutputHTML key={item.id} heros={item}></OutputHTML>
+                    {all.map(elements=>(
+                      <OutputHTML key={elements.id} items={elements}></OutputHTML>
                     ))}
             </section>
   )} //getHero

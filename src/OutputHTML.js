@@ -1,26 +1,27 @@
-import React from 'react'
+import React,{ useState } from 'react'
 // import logo from './img/logo.png'
 
 //component/funcão responsavel por retornar o jsx com os dados completo da api
-const OutputHTML = ({heros}) => {
-
+const OutputHTML = ({items}) => {
+    
     return (
               
               
                 <div className='main'>
 
                 <div  className='hero-img'>
-                  <img  src={`${heros.thumbnail.path}.${heros.thumbnail.extension}`} alt='' />
+                  <img src={`${items.thumbnail.path}.${items.thumbnail.extension}`} alt='' id={items.id} />
+                   <p>{items.id}</p>
                  </div> 
-
+                
                 <div className='hero-desc'>
-                    <h1>{heros.name}</h1>
+                    <h1>{items.name}</h1>
                     <ul>
                       <li>
-                        <strong>Name:</strong> {heros.name}
+                        <strong>Name:</strong> {items.name}
                       </li>
                       <li>
-                        <strong>Description:</strong> {heros.description}
+                        <strong>Description:</strong> {items.description}
                       </li>
                     </ul>
                 </div>
