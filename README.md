@@ -9,7 +9,7 @@
         <td>
         <sub>
        	 	<h2>
-		          este prejeto é sobre usar uma API da Marvel utilizando JavaScript e reactjs nodejs axios
+ 	                este prejeto é sobre usar uma API da Marvel utilizando JavaScript e reactjs nodejs axios
 			os metodos utilizados nesse projeto:
 			GET - /v1/public/characters 
 			GET - /V1/public/characters/{characterId}/stories
