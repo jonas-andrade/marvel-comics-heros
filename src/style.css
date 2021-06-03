@@ -62,17 +62,37 @@ body{
 .hero-desc ul{padding: 5px;}
 .hero-desc ul li{list-style-type: none; }
 
-button{
+button.btnBack{
   position: absolute;
   z-index: 10px;
   top: 200px;
-  left:100px;
+  left:300px;
   position: fixed;
-  background-color: white;
-  color:black;
+  color: white;
   border-radius: 30px;
-  border: 2px solid black;
-  padding: 30px;
+  border: 10px solid black;
+  font-size: 60px;
+  padding: 20px;
+  background-color: red;
+  font-family: "marvel";
+
+
+}
+button.btnGO{
+  position: absolute;
+  z-index: 10px;
+  top: 200px;
+  left:200px;
+  position: fixed;
+  color: white;
+  border-radius: 30px;
+  border: 10px solid black;
+  font-size: 60px;
+  padding: 20px;
+  background-color: green;
+  font-family: "marvel";
+
+
 }
 h1.marvel{
   

@@ -44,6 +44,9 @@ export default function App () {
 // retornando o jsx pasando os dados json da api como parametro
    return(<main className='main-container'>
             <ChangeId  />
+            <ChangeId  />
+
+            
             <GetHero all={heros}  />
             </main>)} //App
 
