@@ -8,7 +8,7 @@ export default function ChangeId(){
  		useEffect(()=>{
  			const btn = document.querySelector("button");
 			btn.addEventListener('click',()=>{
-
+				
 				(count === 19) ? setCount(count = 0) : setCount(count += 1)
 
 				if(count <= 19){
