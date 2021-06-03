@@ -32,7 +32,7 @@ export default function App () {
         useEffect(()=>{
             const fetch = async()=>{
               const res = await axios(`${baseUrl}?ts=${ts}&apikey=${apikey}&hash=${hash}`)
-              console.log("res: ",res)
+              console.log("response: ",res)
               setHeros(res.data.data.results) }
               fetch()
              
@@ -41,7 +41,7 @@ export default function App () {
 
      
 
-// retornando o jsx com os dados json da api como parametro
+// retornando o jsx pasando os dados json da api como parametro
    return(<main className='main-container'>
             <ChangeId  />
             <GetHero all={heros}  />
