@@ -37,13 +37,12 @@ export default function App () {
               fetch()
              
 
-           },[])
-
-     
+           },[])   
 
 // retornando o jsx pasando os dados json da api como parametro
    return(<main className='main-container'>
             <ChangeId  />
+            <ChangeId />
             <GetHero all={heros}  />
             </main>)} //App
 

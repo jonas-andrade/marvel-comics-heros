@@ -12,30 +12,26 @@ body{
   height: 100%;
 }
 
-
-
 .main-container{
+
   width: 100vw;
   height: 100vh;
 }
 
 .main{
+
   display: grid;
   grid-template-columns: repeat(1, 1f);
   grid-template-rows: repeat(1, 1f);
-  justify-content: center;
-
-
-    
+  justify-content: center;   
 }
-  .main > div {
 
-      background-color: rgba(5, 5, 0, 0.7);      
-      width: 100%;
-      height: 100vh;
-      /*border: 2px solid white;*/
-      box-shadow: 7px 10px 20px black;
-    }
+.main > div {
+  background-color: rgba(5, 5, 0, 0.7);      
+  width: 100%;
+  height: 100vh;
+  box-shadow: 7px 10px 20px black;
+}
 
 .card img{
   width: 450px;
@@ -44,9 +40,8 @@ body{
   margin: 15px 50px;
   border: 2px solid white;
   border-radius: 30px;
-
-
 }
+
 .hero-desc{
   width:400px;
   margin: 0 auto;
@@ -56,24 +51,41 @@ body{
   border: 1px solid white;
   border-radius: 20px;
   text-align: center;
-
-
 }
+
 .hero-desc ul{padding: 5px;}
 .hero-desc ul li{list-style-type: none; }
 
-button{
+.btnGo{
   position: absolute;
-  z-index: 10px;
+  z-index: 10;
   top: 200px;
-  left:100px;
+  left: 200px;
   position: fixed;
-  background-color: white;
-  color:black;
+  color: white;
   border-radius: 30px;
-  border: 2px solid black;
-  padding: 30px;
+  border: 10px solid black;
+  font-size: 60px;
+  padding: 20px;
+  background-color: green;
+  font-family: "marvel";
 }
+
+.btnBack{
+  position: absolute;
+  z-index: 10;
+  top: 200px;
+  left:300px;
+  position: fixed;
+  color: white;
+  border-radius: 30px;
+  border: 10px solid black;
+  font-size: 60px;
+  padding: 20px;
+  background-color: red;
+  font-family: "marvel";
+}
+
 h1.marvel{
   
   margin: 20px auto;
@@ -86,8 +98,5 @@ h1.marvel{
   font-family: "marvel";
   width: 140px;
   height: 60px;
-
- 
-  
 
 }
