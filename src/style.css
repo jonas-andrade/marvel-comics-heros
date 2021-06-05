@@ -63,12 +63,31 @@ body{
   left: 200px;
   position: fixed;
   color: white;
+  left:300px;
+  position: fixed;
+  color: white;
+  border-radius: 30px;
+  border: 10px solid black;
+  font-size: 60px;
+  padding: 20px;
+  background-color: red;
+  font-family: "marvel";
+}
+
+.btnGo{
+  position: absolute;
+  z-index: 10px;
+  top: 200px;
+  left:200px;
+  position: fixed;
+  color: white;
   border-radius: 30px;
   border: 10px solid black;
   font-size: 60px;
   padding: 20px;
   background-color: green;
   font-family: "marvel";
+
 }
 
 .btnBack{
@@ -87,7 +106,6 @@ body{
 }
 
 h1.marvel{
-  
   margin: 20px auto;
   text-align: center;
   /*line-height: 50px;*/
