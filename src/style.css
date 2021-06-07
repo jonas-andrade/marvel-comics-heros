@@ -1,4 +1,4 @@
-/* reset */
+
 @font-face{
   font-family: "marvel";
   src: url(MarvelRegular.ttf);
@@ -58,33 +58,15 @@ body{
 
 .btnGo{
   position: absolute;
-  z-index: 10;
-  top: 200px;
-  left: 200px;
-  position: fixed;
-  color: white;
-  left:300px;
-  position: fixed;
-  color: white;
-  border-radius: 30px;
-  border: 10px solid black;
-  font-size: 60px;
-  padding: 20px;
-  background-color: red;
-  font-family: "marvel";
-}
-
-.btnGo{
-  position: absolute;
   z-index: 10px;
   top: 200px;
-  left:200px;
+  right: 300px;
   position: fixed;
   color: white;
-  border-radius: 30px;
-  border: 10px solid black;
+  border-radius: 0 50% 50% 0;
+  border: 15px solid black;
   font-size: 60px;
-  padding: 20px;
+  padding: 30px;
   background-color: green;
   font-family: "marvel";
 
@@ -94,13 +76,13 @@ body{
   position: absolute;
   z-index: 10;
   top: 200px;
-  left:300px;
+  left:316px;
   position: fixed;
   color: white;
-  border-radius: 30px;
-  border: 10px solid black;
+  border-radius: 50% 0 0 50%;
+  border: 15px solid black;
   font-size: 60px;
-  padding: 20px;
+  padding: 30px;
   background-color: red;
   font-family: "marvel";
 }
@@ -117,4 +99,86 @@ h1.marvel{
   width: 140px;
   height: 60px;
 
+}
+
+
+
+
+@media (min-width: 320px) {
+  .btnGo{
+    right: 125px;
+    
+  }
+  .btnBack{
+    left: 125px;
+    
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .btnGo{
+    right: 145px;
+    
+  }
+  .btnBack{
+    left: 145px;
+    
+  }
+}
+
+@media (min-width: 1040px) {
+  .btnGo{
+    right: 355px;
+    
+  }
+  .btnBack{
+    left: 355px;
+    
+  }
+}
+@media (min-width: 1125px) {
+  .btnGo{
+    right: 195px;
+    
+  }
+  .btnBack{
+    left: 195px;
+    
+  }
+}
+
+
+@media (min-width: 2560px) {
+  .btnGo{
+    right: 915px;
+    
+  }
+  .btnBack{
+    left: 915px;
+    
+  }
+}
+
+@media (min-width: 1080px) {
+  .btnGo{
+    right: 175px;
+    
+  }
+  .btnBack{
+    left: 175px;
+    
+  }
+}
+
+
+@media (min-width: 1330px) {
+  .btnGo{
+    right: 300px;
+    
+  }
+  .btnBack{
+    left: 317px;
+    
+  }
 }

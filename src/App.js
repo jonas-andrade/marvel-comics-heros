@@ -14,9 +14,11 @@ const hash = 'e2d00036f8687a32c247e8793c5d3007'
 
 // testes --- gerando hash de forma dinâmica ---
 // import md5 from 'md5';
+// let ts = Number(new Date())
 // const privkey ='?'
-// const hash = md5( ts + privkey + apikey)
-// const ts = Number(new Date())
+// const apikey='c21f06176bd264935b18146deb090a49'
+// let hash = md5( ts + privkey + apikey)
+ 
 
 
 export default function App () {
@@ -32,7 +34,7 @@ export default function App () {
         useEffect(()=>{
             const fetch = async()=>{
               const res = await axios(`${baseUrl}?ts=${ts}&apikey=${apikey}&hash=${hash}`)
-              console.log("response: ",res)
+              
               setHeros(res.data.data.results) }
               fetch()
              
