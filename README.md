@@ -26,8 +26,7 @@
     </tr>
 </table>
 				
-<img src="src/img/code.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
-<img src="src/img/code2.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
+
 <img src="src/img/marvelprojeto.gif" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
 
 
