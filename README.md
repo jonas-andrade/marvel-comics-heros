@@ -1,33 +1,31 @@
-# Projeto Marvel Utilizando a API do site 
+# Projeto Marvel Utilizando a API
 
-## Personagens da marvel
+## Descrição do Projeto
 
-# API Marvel Comics
+Este projeto utiliza a API da Marvel para desenvolver uma aplicação em JavaScript e ReactJS, integrando o Node.js e Axios. O foco principal é recuperar informações sobre os personagens da Marvel, proporcionando uma experiência interativa e rica em conteúdo.
 
-<table>
-    <tr>
-        <td>
-        <sub>
-       	 	<h2>
- 	                este prejeto é sobre usar uma API da Marvel utilizando JavaScript e reactjs nodejs axios</br>
-		os metodos utilizados nesse projeto:</br>
-		GET - /v1/public/characters </br>
-			GET - /V1/public/characters/{characterId}</br>
-			<h2>Exemplo de uso da api</h2>
-			<h3>http:// gateway.marvel.com/v1/public/comics? => URL BASE</h3>
-	                <h3>ts=1& => TIMESTAMP</h3>
-			<h3>apikey=1234& => CHAVE DA API</h3>
-			<h3>hash=ffd275c5130566a2916217b101f26150 => VALOR MD5 GERADO APARTIR DO MURGE - "UNIÃO" (TS+APIKEY+API PRIVADA)</h3>
-			<span>OBS:  </span><h5><a href="https://developer.marvel.com/account">para obter a key publica e privada precisa se cadastrar no site official</h5></a>
-       	 	</h2>
-		<h2><a href="https://developer.marvel.com/docs">Marvel API</a></h2>
-        </sub>
-        </td>
-    </tr>
-</table>
-				
+## Endpoints da API Marvel Comics
 
-<img src="src/img/marvelprojeto.gif" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
+A API da Marvel oferece diversos endpoints. Os principais utilizados neste projeto incluem:
 
+- **GET** - `/v1/public/characters`: Recupera uma lista de personagens da Marvel.
+- **GET** - `/v1/public/characters/{characterId}`: Recupera informações detalhadas de um personagem específico.
+
+### Exemplo de Uso da API
+
+Para fazer uma requisição à API, a URL base é:
+[Documentação da API Marvel](https://developer.marvel.com/docs)
+
+
+A requisição deve incluir os seguintes parâmetros:
+
+- **`ts`**: Timestamp (ex: `ts=1`)
+- **`apikey`**: Sua chave de API pública (ex: `apikey=1234`)
+- **`hash`**: Um valor MD5 gerado a partir da união do timestamp, da chave pública e da chave privada (ex: `hash=ffd275c5130566a2916217b101f26150`).
+
+### Observações
+
+- **Cadastro**: Para obter suas chaves pública e privada, é necessário se cadastrar no [site oficial da Marvel](https://developer.marvel.com/account).
+- **Documentação**: Para mais informações sobre a API, consulte a [documentação da Marvel](https://developer.marvel.com/docs).
 
 
