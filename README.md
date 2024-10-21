@@ -25,7 +25,7 @@ A requisição deve incluir os seguintes parâmetros:
 
 ### Observações
 
-- **Cadastro**: Para obter suas chaves pública e privada, é necessário se cadastrar no [site oficial da Marvel](https://developer.marvel.com/account).
+- **Cadastro**: Para obter suas chaves pública e privada, é necessário se cadastrar no [site oficial da Marvel]([https://developer.marvel.com/account](https://www.marvel.com/signin)).
 - **Documentação**: Para mais informações sobre a API, consulte a [documentação da Marvel](https://developer.marvel.com/docs).
 
 
